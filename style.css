@@ -1,0 +1,236 @@
+/* General Body and Layout Styling */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+/* Main container for the presentation */
+#presentation-container {
+    width: 100%;
+    max-width: 1100px;
+    height: 90vh;
+    max-height: 700px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Container for all slides */
+#slides-container {
+    flex-grow: 1;
+    position: relative;
+}
+
+/* Individual slide styling */
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 30px 50px;
+    box-sizing: border-box;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(20px);
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+    overflow-y: auto;
+    line-height: 1.7;
+}
+
+/* Active slide styling */
+.slide.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+/* Title slide specific styling */
+.title-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title-slide h1 {
+    font-size: 3rem;
+    color: #005a8d;
+    margin-bottom: 0.5rem;
+}
+
+.title-slide p {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+/* Headings styling */
+h1, h2, h3 {
+    font-family: 'Noto Sans Devanagari', sans-serif;
+    color: #005a8d;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: #007bb5;
+    border-bottom: none;
+    margin-top: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 0.95rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+thead {
+    background-color: #f2f6fa;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #dce5ed;
+    text-align: left;
+    font-family: 'Noto Sans Devanagari', 'Inter', sans-serif;
+}
+
+th {
+    font-weight: 600;
+    color: #005a8d;
+}
+
+/* Code/Preformatted text styling */
+pre {
+    background-color: #fdf6e3;
+    padding: 15px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 0.9rem;
+    border-left: 4px solid #007bb5;
+}
+
+/* List styling */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    border-left: 3px solid #007bb5;
+}
+
+/* Navigation controls styling */
+.navigation-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ffffff;
+    border-top: 1px solid #e0e0e0;
+    flex-shrink: 0;
+}
+
+.nav-center {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#module-nav {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#slide-counter {
+    font-size: 1rem;
+    color: #555;
+    font-weight: 500;
+}
+
+.navigation-controls button {
+    background-color: #007bb5;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-controls button:hover {
+    background-color: #005a8d;
+    transform: scale(1.1);
+}
+
+.navigation-controls button:disabled {
+    background-color: #c0c0c0;
+    cursor: not-allowed;
+    transform: scale(1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    #presentation-container {
+        height: 100vh;
+        border-radius: 0;
+        max-height: none;
+    }
+
+    .slide {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .navigation-controls {
+        padding: 10px;
+    }
+
+    .nav-center {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
