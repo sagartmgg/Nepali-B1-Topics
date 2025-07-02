@@ -94,6 +94,10 @@ document.addEventListener('DOMContentLoaded', function() {
                         <tr><td>Why</td><td>किन (kina)</td></tr>
                         <tr><td>How</td><td>कस्तो (kasto - quality), कसरी (kasari - manner)</td></tr>
                         <tr><td>Which</td><td>कुन (kun)</td></tr>
+                        <tr><td>When</td><td>कहिले (kahile)</td></tr>
+                        <tr><td>Whose</td><td>कसको (kasko)</td></tr>
+                        <tr><td>With whom</td><td>कोसँग (ko sanga)</td></tr>
+                        <tr><td>To whom</td><td>कसलाई (kaslaai)</td></tr>
                     </tbody>
                 </table>
             `
