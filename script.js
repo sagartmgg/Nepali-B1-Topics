@@ -57,71 +57,26 @@ document.addEventListener('DOMContentLoaded', function() {
                     <li>Make - बनाउनु (banaaunu)</li>
                 
                 
-                </ul><h3>Simple Present Tense - Verb Endings</h3>
+                </ul>
+                
+                <h3>Simple Present Tense – Verb Endings</h3>
 <table>
     <thead>
-        <tr>
-            <th>Subject</th>
-            <th>Pronoun</th>
-            <th>Positive Suffix</th>
-            <th>Negative Suffix</th>
-        </tr>
+        <tr><th>Subject</th><th>Pronoun</th><th>+ve</th><th>–ve</th></tr>
     </thead>
     <tbody>
-        <tr>
-            <td>I</td>
-            <td>म (ma)</td>
-            <td>छु (chhu)</td>
-            <td>दिनँ (dinā)</td>
-        </tr>
-        <tr>
-            <td>We</td>
-            <td>हामी (hāmī)</td>
-            <td>छौं (chhaũ)</td>
-            <td>दैनौं (dainaũ)</td>
-        </tr>
-        <tr>
-            <td>You (inf)</td>
-            <td>तिमी (timī)</td>
-            <td>छौ (chau)</td>
-            <td>दैनौ (dainau)</td>
-        </tr>
-        <tr>
-            <td>You (formal)</td>
-            <td>तपाईं (tapāī̃)</td>
-            <td>(verb) + हुन्छ (huncha)</td>
-            <td>(verb) + हुन्न (hunna)</td>
-        </tr>
-        <tr>
-            <td>He/She/That</td>
-            <td>उ/यो/त्यो (u/yo/tyo)</td>
-            <td>छ (cha)</td>
-            <td>दैन (daina)</td>
-        </tr>
-        <tr>
-            <td>She (formal)</td>
-            <td>उनी (unī)</td>
-            <td>छिन् (chhin)</td>
-            <td>दैनन् (dainān)</td>
-        </tr>
-        <tr>
-            <td>He/She (formal)</td>
-            <td>वहाँ (wahā̃)</td>
-            <td>(verb) + हुन्छ (huncha)</td>
-            <td>(verb) + हुन्न (hunna)</td>
-        </tr>
-        <tr>
-            <td>They</td>
-            <td>उनीहरु (unīharu)</td>
-            <td>छन् (chan)</td>
-            <td>दैनन् (dainān)</td>
-        </tr>
+        <tr><td>I</td><td>म (ma)</td><td>छु (chhu)</td><td>दिनँ (dinā)</td></tr>
+        <tr><td>We</td><td>हामी (hāmī)</td><td>छौं (chhaũ)</td><td>दैनौं (dainaũ)</td></tr>
+        <tr><td>You (inf)</td><td>तिमी (timī)</td><td>छौ (chau)</td><td>दैनौ (dainau)</td></tr>
+        <tr><td>You (formal)</td><td>तपाईं (tapāī̃)</td><td>हुन्छ (huncha)</td><td>हुन्न (hunna)</td></tr>
+        <tr><td>He/She/That</td><td>उ/यो/त्यो (u/yo/tyo)</td><td>छ (cha)</td><td>दैन (daina)</td></tr>
+        <tr><td>She (formal)</td><td>उनी (unī)</td><td>छिन् (chhin)</td><td>दैनन् (dainān)</td></tr>
+        <tr><td>He/She (formal)</td><td>वहाँ (wahā̃)</td><td>हुन्छ (huncha)</td><td>हुन्न (hunna)</td></tr>
+        <tr><td>They</td><td>उनीहरु (unīharu)</td><td>छन् (chan)</td><td>दैनन् (dainān)</td></tr>
     </tbody>
 </table>
-<p><strong>Note:</strong> For verbs ending in vowels, add "n" in the positive form (e.g., 'khaanchhu' – खान्छु). This doesn't apply to negatives or verbs ending in 'unu'.</p>
-
-            `
-        },
+<p><strong>Note:</strong> For verbs ending in vowels, add "n" in the positive form (e.g., खान्छु – <em>khaanchhu</em>). This doesn’t apply to negatives or verbs ending in 'unu'.</p>
+,
         {
             title: "Module 3: Asking Questions",
             content: `
@@ -174,25 +129,27 @@ document.addEventListener('DOMContentLoaded', function() {
             `
         },
         {
-            title: "Module 5: Present Continuous",
-            content: `
-                <h2>Module 5: What’s Going On? – Present Continuous</h2>
-                <p>Formed by: <strong>Stem verb + दै (dai) + conjugated form of 'chha'</strong>.</p>
-                <table>
-                    <thead><tr><th>Subject</th><th>Pronoun</th><th>Positive Ending</th><th>Negative Ending</th></tr></thead>
-                    <tbody>
-                        <tr><td>I</td><td>म</td><td>दै छु</td><td>दै छैन</td></tr>
-                        <tr><td>We</td><td>हामी</td><td>दै छौं</td><td>दै छैनौं</td></tr>
-                        <tr><td>You (inf)</td><td>तिमी</td><td>दै छौ</td><td>दै छैनौ</td></tr>
-                        <tr><td>You (formal)</td><td>तपाईं</td><td>दै हुनुहुन्छ</td><td>दै हुनुहुन्न</td></tr>
-                        <tr><td>He/She/That</td><td>उ/यो/त्यो</td><td>दै छ</td><td>दै छैन</td></tr>
-                        <tr><td>She (formal)</td><td>उनी</td><td>दै छिन्</td><td>दै छैनन्</td></tr>
-                        <tr><td>He/She (formal)</td><td>वहाँ</td><td>दै हुनुहुन्छ</td><td>दै हुनुहुन्न</td></tr>
-                        <tr><td>They</td><td>उनीहरु</td><td>दै छन्</td><td>दै छैनन्</td></tr>
-                    </tbody>
-                </table>
-                <p>Example: I am eating. → म खा<strong>दै छु</strong> (Ma khaadai chhu).</p>
-            `
+    title: "Module 5: Present Continuous",
+    content: `
+        <h2>Module 5: What’s Going On? – Present Continuous</h2>
+        <p>Formed by: <strong>Stem verb + दै (dai) + form of 'छ (chha)'</strong></p>
+        <table>
+            <thead>
+                <tr><th>Subject</th><th>Pronoun</th><th>+ve</th><th>–ve</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>I</td><td>म (ma)</td><td>दै छु (dai chhu)</td><td>दै छैन (dai chhaina)</td></tr>
+                <tr><td>We</td><td>हामी (hāmī)</td><td>दै छौं (dai chhaũ)</td><td>दै छैनौं (dai chhainãu)</td></tr>
+                <tr><td>You (inf)</td><td>तिमी (timī)</td><td>दै छौ (dai chau)</td><td>दै छैनौ (dai chhainau)</td></tr>
+                <tr><td>You (formal)</td><td>तपाईं (tapāī̃)</td><td>दै हुनुहुन्छ (dai hunuhunchha)</td><td>दै हुनुहुन्न (dai hunuhunna)</td></tr>
+                <tr><td>He/She/That</td><td>उ/यो/त्यो (u/yo/tyo)</td><td>दै छ (dai chha)</td><td>दै छैन (dai chhaina)</td></tr>
+                <tr><td>She (formal)</td><td>उनी (unī)</td><td>दै छिन् (dai chhin)</td><td>दै छैनन् (dai chhainān)</td></tr>
+                <tr><td>He/She (formal)</td><td>वहाँ (wahā̃)</td><td>दै हुनुहुन्छ (dai hunuhunchha)</td><td>दै हुनुहुन्न (dai hunuhunna)</td></tr>
+                <tr><td>They</td><td>उनीहरु (unīharu)</td><td>दै छन् (dai chan)</td><td>दै छैनन् (dai chhainān)</td></tr>
+            </tbody>
+        </table>
+        <p>Example: I am eating → म खा<strong>दै छु</strong> (ma kha<strong>dai chhu</strong>).</p>
+    `
         },
         {
             title: "Module 6: Present Perfect",
