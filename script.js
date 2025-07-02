@@ -56,23 +56,26 @@ document.addEventListener('DOMContentLoaded', function() {
                     <li>Learn - सिक्नु (siknu)</li>
                     <li>Make - बनाउनु (banaaunu)</li>
                 </ul>
+                
                 <h3>Simple Present Tense - Verb Endings</h3>
-                <table>
-                    <thead><tr><th>Subject</th><th>Pronoun</th><th>Positive Suffix</th><th>Negative Suffix</th></tr></thead>
-                    <tbody>
-                        <tr><td>I</td><td>म</td><td>छु</td><td>दिनँ</td></tr>
-                        <tr><td>We</td><td>हामी</td><td>छौं</td><td>दैनौं</td></tr>
-                        <tr><td>You (inf)</td><td>तिमी</td><td>छौ</td><td>दैनौ</td></tr>
-                        <tr><td>You (formal)</td><td>तपाईं</td><td>(verb) + हुन्छ</td><td>(verb) + हुन्न</td></tr>
-                        <tr><td>He/She/That</td><td>उ/यो/त्यो</td><td>छ</td><td>दैन</td></tr>
-                        <tr><td>She (formal)</td><td>उनी</td><td>छिन्</td><td>दैनन्</td></tr>
-                        <tr><td>He/She (formal)</td><td>वहाँ</td><td>(verb) + हुन्छ</td><td>(verb) + हुन्न</td></tr>
-                        <tr><td>They</td><td>उनीहरु</td><td>छन्</td><td>दैनन्</td></tr>
-                    </tbody>
-                </table>
-                <p><strong>Note:</strong> For verbs ending in vowels, add "n" in the positive form (e.g., 'khaanchhu'). This doesn't apply to negatives or verbs ending in 'unu'.</p>
-            `
-        },
+        <table>
+            <thead><tr><th>Subject</th><th>Pronoun</th><th>Positive Suffix</th><th>Negative Suffix</th></tr></thead>
+            <tbody>
+                <tr><td>I</td><td>ma (म)</td><td>chhu (छु)</td><td>dinã (दिनँ)</td></tr>
+                <tr><td>We</td><td>haami (हामी)</td><td>chhaũ (छौं)</td><td>dainaũ (दैनौं)</td></tr>
+                <tr><td>You (inf)</td><td>timi (तिमी)</td><td>chhau (छौ)</td><td>dainaũ (दैनौ)</td></tr>
+                <tr><td>You (formal)</td><td>tapaai (तपाईं)</td><td>(verb) + hunchha (हुन्छ)</td><td>(verb) + hunna (हुन्न)</td></tr>
+                <tr><td>He/She/That</td><td>u/yo/tyo (उ/यो/त्यो)</td><td>chha (छ)</td><td>daina (दैन)</td></tr>
+                <tr><td>She (formal)</td><td>uni (उनी)</td><td>chhin (छिन्)</td><td>dainan (दैनन्)</td></tr>
+                <tr><td>He/She (formal)</td><td>wahaa (वहाँ)</td><td>(verb) + hunchha (हुन्छ)</td><td>(verb) + hunna (हुन्न)</td></tr>
+                <tr><td>They</td><td>uniharu (उनीहरु)</td><td>chhan (छन्)</td><td>dainan (दैनन्)</td></tr>
+            </tbody>
+        </table>
+        <p><strong>Note:</strong> For verbs ending in vowels, add "n" in the positive form (e.g., 'khaanchhu'). This doesn't apply to negatives or verbs ending in 'unu'.</p>
+    `
+}
+                
+                ,
         {
             title: "Module 3: Asking Questions",
             content: `
@@ -135,77 +138,81 @@ document.addEventListener('DOMContentLoaded', function() {
                 <table>
                     <thead><tr><th>Subject</th><th>Pronoun</th><th>Positive Ending</th><th>Negative Ending</th></tr></thead>
                     <tbody>
-                        <tr><td>I</td><td>म</td><td>दै छु</td><td>दै छैन</td></tr>
-                        <tr><td>We</td><td>हामी</td><td>दै छौं</td><td>दै छैनौं</td></tr>
-                        <tr><td>You (inf)</td><td>तिमी</td><td>दै छौ</td><td>दै छैनौ</td></tr>
-                        <tr><td>You (formal)</td><td>तपाईं</td><td>दै हुनुहुन्छ</td><td>दै हुनुहुन्न</td></tr>
-                        <tr><td>He/She/That</td><td>उ/यो/त्यो</td><td>दै छ</td><td>दै छैन</td></tr>
-                        <tr><td>She (formal)</td><td>उनी</td><td>दै छिन्</td><td>दै छैनन्</td></tr>
-                        <tr><td>He/She (formal)</td><td>वहाँ</td><td>दै हुनुहुन्छ</td><td>दै हुनुहुन्न</td></tr>
-                        <tr><td>They</td><td>उनीहरु</td><td>दै छन्</td><td>दै छैनन्</td></tr>
+                        <tr><td>I</td><td>म (ma)</td><td>दै छु (dai chhu)</td><td>दै छैन (dai chhaina)</td></tr>
+                        <tr><td>We</td><td>हामी (haami)</td><td>दै छौं (dai chhaũ)</td><td>दै छैनौं (dai chhainau)</td></tr>
+                        <tr><td>You (inf)</td><td>तिमी (timi)</td><td>दै छौ (dai chhau)</td><td>दै छैनौ (dai chhainau)</td></tr>
+                        <tr><td>You (formal)</td><td>तपाईं (tapaai)</td><td>दै हुनुहुन्छ (dai hunuhunchha)</td><td>दै हुनुहुन्न (dai hunuhunna)</td></tr>
+                        <tr><td>He/She/That</td><td>उ/यो/त्यो (u/yo/tyo)</td><td>दै छ (dai chha)</td><td>दै छैन (dai chhaina)</td></tr>
+                        <tr><td>She (formal)</td><td>उनी (uni)</td><td>दै छिन् (dai chhin)</td><td>दै छैनन् (dai chhainan)</td></tr>
+                        <tr><td>He/She (formal)</td><td>वहाँ (wahaã)</td><td>दै हुनुहुन्छ (dai hunuhunchha)</td><td>दै हुनुहुन्न (dai hunuhunna)</td></tr>
+                        <tr><td>They</td><td>उनीहरु (uniharu)</td><td>दै छन् (dai chhan)</td><td>दै छैनन् (dai chhainan)</td></tr>
                     </tbody>
                 </table>
                 <p>Example: I am eating. → म खा<strong>दै छु</strong> (Ma khaadai chhu).</p>
+
             `
         },
         {
             title: "Module 6: Present Perfect",
             content: `
                 <h2>Module 6: What Have You Done? – Present Perfect</h2>
-                <p>Formed by: <strong>Stem verb + एको/एकी/एका (eko/eki/eka) + conjugated form of 'chha'</strong>.</p>
-                <p>Use <strong>एको (eko)</strong> for masculine singular, <strong>एकी (eki)</strong> for feminine singular, and <strong>एका (eka)</strong> for plural.</p>
-                <p>For transitive verbs (verbs with an object), the subject is followed by <strong>ले (le)</strong>.</p>
-                <table>
-                    <thead><tr><th>Subject</th><th>Positive Ending</th><th>Negative Ending</th></tr></thead>
-                    <tbody>
-                        <tr><td>I (म)</td><td>एको/एकी छु</td><td>एको/एकी छैन</td></tr>
-                        <tr><td>We (हामी)</td><td>एका छौं</td><td>एका छैनौं</td></tr>
-                        <tr><td>You (तिमी)</td><td>एका/एकी छौ</td><td>एका/एकी छैनौ</td></tr>
-                        <tr><td>He/She (उ)</td><td>एको/एकी छ</td><td>एको/एकी छैन</td></tr>
-                        <tr><td>They (उनीहरु)</td><td>एका छन्</td><td>एका छैनन्</td></tr>
-                    </tbody>
-                </table>
-                <p>Example: I have eaten rice. → मैले भात खा<strong>एको छु</strong> (Maile bhaat khaeko chhu).</p>
+<p>Formed by: <strong>Stem verb + एको/एकी/एका (eko/eki/eka) + conjugated form of 'chha'</strong>.</p>
+<p>Use <strong>एको (eko)</strong> for masculine singular, <strong>एकी (eki)</strong> for feminine singular, and <strong>एका (eka)</strong> for plural.</p>
+<p>For transitive verbs (verbs with an object), the subject is followed by <strong>ले (le)</strong>.</p>
+<table>
+    <thead><tr><th>Subject</th><th>Positive Ending</th><th>Negative Ending</th></tr></thead>
+    <tbody>
+        <tr><td>I (म / ma)</td><td>एको/एकी छु (eko/eki chhu)</td><td>एको/एकी छैन (eko/eki chhaina)</td></tr>
+        <tr><td>We (हामी / haami)</td><td>एका छौं (eka chhaũ)</td><td>एका छैनौं (eka chhainau)</td></tr>
+        <tr><td>You (तिमी / timi)</td><td>एका/एकी छौ (eka/eki chhau)</td><td>एका/एकी छैनौ (eka/eki chhainau)</td></tr>
+        <tr><td>He/She (उ / u)</td><td>एको/एकी छ (eko/eki chha)</td><td>एको/एकी छैन (eko/eki chhaina)</td></tr>
+        <tr><td>They (उनीहरु / uniharu)</td><td>एका छन् (eka chhan)</td><td>एका छैनन् (eka chhainan)</td></tr>
+    </tbody>
+</table>
+<p>Example: I have eaten rice. → मैले भात खा<strong>एको छु</strong> (Maile bhaat khaeko chhu).</p>
+
             `
         },
         {
             title: "Module 7: Simple Past",
             content: `
                  <h2>Module 7: What did you do? – Simple Past</h2>
-                <p>The past tense endings are attached directly to the verb stem.</p>
-                <table>
-                    <thead><tr><th>Subject</th><th>Pronoun</th><th>Positive Suffix</th><th>Negative Suffix</th></tr></thead>
-                    <tbody>
-                        <tr><td>I</td><td>म</td><td>एँ</td><td>इनँ</td></tr>
-                        <tr><td>We</td><td>हामी</td><td>यौं</td><td>एनौं</td></tr>
-                        <tr><td>You (inf)</td><td>तिमी</td><td>यौ</td><td>एनौ</td></tr>
-                        <tr><td>You (formal)</td><td>तपाईं</td><td>(verb) + भयो</td><td>(verb) + भएन</td></tr>
-                        <tr><td>He/She/That</td><td>उ/यो/त्यो</td><td>यो</td><td>एन</td></tr>
-                        <tr><td>She (formal)</td><td>उनी</td><td>इन्</td><td>इनन्</td></tr>
-                        <tr><td>He/She (formal)</td><td>वहाँ</td><td>(verb) + भयो</td><td>(verb) + भएन</td></tr>
-                        <tr><td>They</td><td>उनीहरु</td><td>ए</td><td>एनन्</td></tr>
-                    </tbody>
-                </table>
-                <p>Example: I went. → म गएँ (Ma gayen). I did not go. → म गइनँ (Ma gaina).</p>
+<p>The past tense endings are attached directly to the verb stem.</p>
+<table>
+    <thead><tr><th>Subject</th><th>Pronoun</th><th>Positive Suffix</th><th>Negative Suffix</th></tr></thead>
+    <tbody>
+        <tr><td>I</td><td>म (ma)</td><td>एँ (ẽ)</td><td>इनँ (inã)</td></tr>
+        <tr><td>We</td><td>हामी (haami)</td><td>यौं (yaũ)</td><td>एनौं (enaũ)</td></tr>
+        <tr><td>You (inf)</td><td>तिमी (timi)</td><td>यौ (yau)</td><td>एनौ (enau)</td></tr>
+        <tr><td>You (formal)</td><td>तपाईं (tapaai)</td><td>(verb) + भयो (bhayo)</td><td>(verb) + भएन (bhaena)</td></tr>
+        <tr><td>He/She/That</td><td>उ/यो/त्यो (u/yo/tyo)</td><td>यो (yo)</td><td>एन (en)</td></tr>
+        <tr><td>She (formal)</td><td>उनी (uni)</td><td>इन् (in)</td><td>इनन् (inan)</td></tr>
+        <tr><td>He/She (formal)</td><td>वहाँ (wahaã)</td><td>(verb) + भयो (bhayo)</td><td>(verb) + भएन (bhaena)</td></tr>
+        <tr><td>They</td><td>उनीहरु (uniharu)</td><td>ए (e)</td><td>एनन् (enan)</td></tr>
+    </tbody>
+</table>
+<p>Example: I went. → म गएँ (Ma gayẽ). I did not go. → म गइनँ (Ma gainã).</p>
+
             `
         },
         {
             title: "Module 8: Past Perfect",
             content: `
                 <h2>Module 8: Earlier Past – Past Perfect</h2>
-                <p>Formed by: <strong>Stem verb + एको/एकी/एका (eko/eki/eka) + conjugated form of 'thiyo' (was/were)</strong>.</p>
-                <p>This tense describes an action that was completed before another past action.</p>
-                 <table>
-                    <thead><tr><th>Subject</th><th>Pronoun</th><th>Positive Ending</th><th>Negative Ending</th></tr></thead>
-                    <tbody>
-                        <tr><td>I</td><td>म</td><td>एको/एकी थिएँ</td><td>एको/एकी थिइनँ</td></tr>
-                        <tr><td>We</td><td>हामी</td><td>एका थियौं</td><td>एका थिएनौं</td></tr>
-                        <tr><td>You (inf)</td><td>तिमी</td><td>एका/एकी थियौ</td><td>एका/एकी थिएनौ</td></tr>
-                        <tr><td>He/She/That</td><td>उ/यो/त्यो</td><td>एको/एकी थियो</td><td>एको/एकी थिएन</td></tr>
-                        <tr><td>They</td><td>उनीहरु</td><td>एका थिए</td><td>एका थिएनन्</td></tr>
-                    </tbody>
-                </table>
-                <p>Example: I had gone. → म गएको थिएँ (Ma gaeko thien).</p>
+<p>Formed by: <strong>Stem verb + एको/एकी/एका (eko/eki/eka) + conjugated form of 'thiyo' (was/were)</strong>.</p>
+<p>This tense describes an action that was completed before another past action.</p>
+<table>
+    <thead><tr><th>Subject</th><th>Pronoun</th><th>Positive Ending</th><th>Negative Ending</th></tr></thead>
+    <tbody>
+        <tr><td>I</td><td>म (ma)</td><td>एको/एकी थिएँ (eko/eki thiẽ)</td><td>एको/एकी थिइनँ (eko/eki thienã)</td></tr>
+        <tr><td>We</td><td>हामी (haami)</td><td>एका थियौं (eka thiyaũ)</td><td>एका थिएनौं (eka thienaaũ)</td></tr>
+        <tr><td>You (inf)</td><td>तिमी (timi)</td><td>एका/एकी थियौ (eka/eki thiyau)</td><td>एका/एकी थिएनौ (eka/eki thienaau)</td></tr>
+        <tr><td>He/She/That</td><td>उ/यो/त्यो (u/yo/tyo)</td><td>एको/एकी थियो (eko/eki thiyo)</td><td>एको/एकी थिएन (eko/eki thiena)</td></tr>
+        <tr><td>They</td><td>उनीहरु (uniharu)</td><td>एका थिए (eka thiye)</td><td>एका थिएनन् (eka thienan)</td></tr>
+    </tbody>
+</table>
+<p>Example: I had gone. → म गएको थिएँ (Ma gaeko thiẽ).</p>
+
             `
         },
         {
