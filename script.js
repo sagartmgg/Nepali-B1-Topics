@@ -55,22 +55,71 @@ document.addEventListener('DOMContentLoaded', function() {
                     <li>Study / read - पढ्नु (padhnu)</li>
                     <li>Learn - सिक्नु (siknu)</li>
                     <li>Make - बनाउनु (banaaunu)</li>
-                </ul>
-                <h3>Simple Present Tense - Verb Endings</h3>
-                <table>
-                    <thead><tr><th>Subject</th><th>Pronoun</th><th>Positive Suffix</th><th>Negative Suffix</th></tr></thead>
-                    <tbody>
-                        <tr><td>I</td><td>म</td><td>छु</td><td>दिनँ</td></tr>
-                        <tr><td>We</td><td>हामी</td><td>छौं</td><td>दैनौं</td></tr>
-                        <tr><td>You (inf)</td><td>तिमी</td><td>छौ</td><td>दैनौ</td></tr>
-                        <tr><td>You (formal)</td><td>तपाईं</td><td>(verb) + हुन्छ</td><td>(verb) + हुन्न</td></tr>
-                        <tr><td>He/She/That</td><td>उ/यो/त्यो</td><td>छ</td><td>दैन</td></tr>
-                        <tr><td>She (formal)</td><td>उनी</td><td>छिन्</td><td>दैनन्</td></tr>
-                        <tr><td>He/She (formal)</td><td>वहाँ</td><td>(verb) + हुन्छ</td><td>(verb) + हुन्न</td></tr>
-                        <tr><td>They</td><td>उनीहरु</td><td>छन्</td><td>दैनन्</td></tr>
-                    </tbody>
-                </table>
-                <p><strong>Note:</strong> For verbs ending in vowels, add "n" in the positive form (e.g., 'khaanchhu'). This doesn't apply to negatives or verbs ending in 'unu'.</p>
+                
+                
+                </ul><h3>Simple Present Tense - Verb Endings</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Subject</th>
+            <th>Pronoun</th>
+            <th>Positive Suffix</th>
+            <th>Negative Suffix</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>I</td>
+            <td>म (ma)</td>
+            <td>छु (chhu)</td>
+            <td>दिनँ (dinā)</td>
+        </tr>
+        <tr>
+            <td>We</td>
+            <td>हामी (hāmī)</td>
+            <td>छौं (chhaũ)</td>
+            <td>दैनौं (dainaũ)</td>
+        </tr>
+        <tr>
+            <td>You (inf)</td>
+            <td>तिमी (timī)</td>
+            <td>छौ (chau)</td>
+            <td>दैनौ (dainau)</td>
+        </tr>
+        <tr>
+            <td>You (formal)</td>
+            <td>तपाईं (tapāī̃)</td>
+            <td>(verb) + हुन्छ (huncha)</td>
+            <td>(verb) + हुन्न (hunna)</td>
+        </tr>
+        <tr>
+            <td>He/She/That</td>
+            <td>उ/यो/त्यो (u/yo/tyo)</td>
+            <td>छ (cha)</td>
+            <td>दैन (daina)</td>
+        </tr>
+        <tr>
+            <td>She (formal)</td>
+            <td>उनी (unī)</td>
+            <td>छिन् (chhin)</td>
+            <td>दैनन् (dainān)</td>
+        </tr>
+        <tr>
+            <td>He/She (formal)</td>
+            <td>वहाँ (wahā̃)</td>
+            <td>(verb) + हुन्छ (huncha)</td>
+            <td>(verb) + हुन्न (hunna)</td>
+        </tr>
+        <tr>
+            <td>They</td>
+            <td>उनीहरु (unīharu)</td>
+            <td>छन् (chan)</td>
+            <td>दैनन् (dainān)</td>
+        </tr>
+    </tbody>
+</table>
+<p><strong>Note:</strong> For verbs ending in vowels, add "n" in the positive form (e.g., 'khaanchhu' – खान्छु). This doesn't apply to negatives or verbs ending in 'unu'.</p>
+
             `
         },
         {
@@ -94,6 +143,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <tr><td>Why</td><td>किन (kina)</td></tr>
                         <tr><td>How</td><td>कस्तो (kasto - quality), कसरी (kasari - manner)</td></tr>
                         <tr><td>Which</td><td>कुन (kun)</td></tr>
+                        <tr><td>when</td><td>कहिले (kahile)</td></tr>
                     </tbody>
                 </table>
             `
