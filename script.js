@@ -546,18 +546,69 @@ document.addEventListener('DOMContentLoaded', function() {
             `
         },
         {
-            title: "Module 28: Next Steps & Advanced Topics",
-            content: `
-                <h2>Module 28: Next Steps</h2>
-                <p>Congratulations on covering the basics! Here are some more advanced topics to explore next.</p>
-                <ul>
-                    <li><strong>Verb + एर (era):</strong> Having done [verb]... (e.g., भात खाएर, म सुतें - Khaana khaera, ma suten - Having eaten, I slept.)</li>
-                    <li><strong>Verb + दा (da):</strong> While doing [verb]... (e.g., हिँड्दा, मैले उसलाई देखें - Hind'da, maile uslai dekhen - While walking, I saw him.)</li>
-                    <li><strong>Causative Verbs:</strong> Verbs that cause someone to do something (e.g., गर्नु garnu 'to do' vs. गराउनु garaunu 'to make someone do').</li>
-                    <li><strong>Particles:</strong> Small words like त (ta), नि (ni), रे (re) that add nuance and emphasis to sentences.</li>
-                </ul>
-            `
-        }
+    title: "Module 28: Next Steps & Advanced Topics",
+    content: `
+        <h2>Module 28: Next Steps</h2>
+        <p>Congratulations on covering the basics! Here are some more advanced topics and helpful resources to explore next:</p>
+
+        <ul>
+            <li><strong>Verb + एर (era):</strong> Having done [verb]...<br>
+                <em>Example:</em> भात खाएर, म सुतें (Khaana khaera, ma suten) — Having eaten, I slept.
+            </li>
+            <li><strong>Verb + दा (da):</strong> While doing [verb]...<br>
+                <em>Example:</em> हिँड्दा, मैले उसलाई देखें (Hind'da, maile uslai dekhen) — While walking, I saw him.
+            </li>
+            <li><strong>Causative Verbs:</strong> Verbs that cause someone to do something<br>
+                <em>Example:</em> गर्नु (garnu - to do) vs. गराउनु (garaunu - to make someone do)
+            </li>
+            <li><strong>Particles:</strong> Small words like त (ta), नि (ni), रे (re) that add nuance and emphasis to sentences.
+            </li>
+        </ul>
+
+        <h3>📚 Helpful Resources</h3>
+        <ul>
+            <li><strong>📜 Learn the Script:</strong> 
+                <a href="https://sagartmgg.github.io/Devanagari-Script/" target="_blank">Devanagari Script Guide</a>
+            </li>
+            <li><strong>🎧 Listening Practice:</strong> 
+                <a href="https://sagartmgg.github.io/nepali-listening-exercise/" target="_blank">Nepali Listening Exercises</a>
+            </li>
+            <li><strong>🃏 Flashcards:</strong> 
+                <a href="https://sagartmgg.github.io/eng-nepali-flashcards/" target="_blank">English–Nepali Flashcards</a>
+            </li>
+            <li><strong>📖 Reading Practice:</strong> 
+                <a href="https://storyweaver.org.in/en/search?query=nepali" target="_blank">Nepali Stories on StoryWeaver</a>
+            </li>
+        </ul>
+
+        <h3>🗣️ Conversation & Speaking Practice</h3>
+        <ul>
+            <li><strong>Daily News Speaking Practice:</strong> 
+                <a href="https://engoo.com/app/daily-news" target="_blank">Engoo Daily News</a>
+            </li>
+            <li><strong>🎯 Targeted Grammar & Speaking:</strong> 
+                <a href="https://printdiscuss.com/targeted/" target="_blank">PrintDiscuss – Targeted Speaking Practice</a>
+            </li>
+            <li><strong>💬 Speaking by Topic:</strong> 
+                <a href="https://basicenglishspeaking.com/daily-english-conversation-topics/" target="_blank">Basic English Conversation Topics</a>
+            </li>
+        </ul>
+
+        <h3>📺 YouTube Channels for Nepali Content</h3>
+        <ul>
+            <li><a href="https://www.youtube.com/@GadgetByteNepali" target="_blank">GadgetByte Nepali</a></li>
+            <li><a href="https://youtube.com/@ukmandu?si=HOBgXhMqYwrmBCVA" target="_blank">UKmandu</a></li>
+            <li><a href="https://youtube.com/@osrdigital?si=7M7vbu2lyhGNnVl6" target="_blank">OSR Digital</a></li>
+            <li><a href="https://youtube.com/@fridaykollywood?si=rVOpueUgTzIijER-" target="_blank">Friday Kollywood</a></li>
+            <li><a href="https://youtube.com/@budhasubbamusic?si=yVZE4TSozYAw1Ny4" target="_blank">Budha Subba Music</a></li>
+            <li><a href="https://youtube.com/@osrmovies?si=YiGolJy-wXgLrW7-" target="_blank">OSR Movies</a></li>
+            <li><a href="https://www.youtube.com/@bestbuddiesstoriesnepali" target="_blank">Best Buddies Stories Nepali</a></li>
+            <li><a href="https://youtube.com/@tireshkc?si=J5U5WkF1ihJAPt9I" target="_blank">Tires K.C.</a></li>
+            <li><a href="https://www.youtube.com/@ThirdWorldNerd" target="_blank">Third World Nerd</a></li>
+            <li><a href="https://www.youtube.com/@IDSMediaNetwork" target="_blank">IDS Media Network</a></li>
+        </ul>
+    `
+}
     ];
 
     // DOM Elements
