@@ -489,11 +489,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 <table>
                     <thead><tr><th>Subject</th><th>Positive Ending</th><th>Negative Ending</th></tr></thead>
                     <tbody>
-                        <tr><td>I (म)</td><td>न्थें</td><td>न्नथें</td></tr>
-                        <tr><td>We (हामी)</td><td>न्थ्यौं</td><td>न्नथ्यौं</td></tr>
-                        <tr><td>You (तिमी)</td><td>न्थ्यौ</td><td>न्नथ्यौ</td></tr>
-                        <tr><td>He/She (उ)</td><td>न्थ्यो</td><td>न्नथ्यो</td></tr>
-                        <tr><td>They (उनीहरु)</td><td>न्थे</td><td>न्नथे</td></tr>
+                      <tr><td>I (म)</td><td>थें (thẽ)</td><td>दिनथें (dinathẽ)</td></tr>
+                      <tr><td>We (हामी)</td><td>थ्यौं (thyaũ)</td><td>दैन्थ्यो (dainathyo)</td></tr>
+                      <tr><td>You (तिमी)</td><td>थ्यौ (thyau)</td><td>दैन्थ्यो (dainathyo)</td></tr>
+                      <tr><td>He/She (उ)</td><td>थ्यो (thyo)</td><td>दैन्थ्यो (dainathyo)</td></tr>
+                      <tr><td>They (उनीहरू)</td><td>थिए (thi’e)</td><td>दैन्थिए (dainathi’e)</td></tr>
                     </tbody>
                 </table>
                 <p>Example: I used to play football. → म फुटबल खेल्थें (Ma football khelthe). </p>
