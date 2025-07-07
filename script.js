@@ -487,15 +487,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p>To talk about something you used to do, use the structure:</p>
                 <p><strong>Verb Stem + थें/थ्यौ/थ्यो (the/thyau/thyo) etc.</strong> This is a specific past tense form.</p>
                 <table>
-                    <thead><tr><th>Subject</th><th>Positive Ending</th><th>Negative Ending</th></tr></thead>
+                    </thead>
                     <tbody>
-                      <tr><td>I (म)</td><td>थें (thẽ)</td><td>दिनथें (dinathẽ)</td></tr>
-                      <tr><td>We (हामी)</td><td>थ्यौं (thyaũ)</td><td>दैन्थ्यो (dainathyo)</td></tr>
-                      <tr><td>You (तिमी)</td><td>थ्यौ (thyau)</td><td>दैन्थ्यो (dainathyo)</td></tr>
-                      <tr><td>He/She (उ)</td><td>थ्यो (thyo)</td><td>दैन्थ्यो (dainathyo)</td></tr>
-                      <tr><td>They (उनीहरू)</td><td>थिए (thi’e)</td><td>दैन्थिए (dainathi’e)</td></tr>
+                        <tr><td>म (ma)</td><td>खेल्थें (khelthẽ)</td><td>खेल्दिन्थें (kheldinthẽ)</td></tr>
+                        <tr><td>हामी (haami)</td><td>खेल्थ्यौं (khelthyaũ)</td><td>खेल्दैनथ्यौं (kheldainthyaũ)</td></tr>
+                        <tr><td>तिमी (timi)</td><td>खेल्थ्यौ (khelthyau)</td><td>खेल्दैनथ्यौ (kheldainthyau)</td></tr>
+                        <tr><td>तपाईं (tapaaĩ)</td><td>खेल्नुहुन्थ्यो (khelnuhunthyo)</td><td>खेल्नुहुन्नथ्यो (khelnuhunnathyo)</td></tr>
+                        <tr><td>उ (u)</td><td>खेल्थ्यो (khelthyo)</td><td>खेल्दैनथ्यो (kheldainthyo)</td></tr>
+                        <tr><td>उहाँ (wahãa)</td><td>खेल्नुहुन्थ्यो (khelnuhunthyo)</td><td>खेल्नुहुन्नथ्यो (khelnuhunnathyo)</td></tr>
+                        <tr><td>उनीहरू (uniharu)</td><td>खेल्थिए (khelthi’e)</td><td>खेल्दैनथिए (kheldainthi’e)</td></tr>
                     </tbody>
-                </table>
                 <p>Example: I used to play football. → म फुटबल खेल्थें (Ma football khelthe). </p>
             `
         },
