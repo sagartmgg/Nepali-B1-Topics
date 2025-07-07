@@ -223,14 +223,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 <table>
                     <thead><tr><th>Subject</th><th>Pronoun</th><th>Positive (was/were)</th><th>Negative</th></tr></thead>
                     <tbody>
-                        <tr><td>I</td><td>म</td><td>थिएँ</td><td>थिइनँ</td></tr>
-                        <tr><td>We</td><td>हामी</td><td>थियौं</td><td>थिएनौं</td></tr>
-                        <tr><td>You (inf)</td><td>तिमी</td><td>थियौ</td><td>थिएनौ</td></tr>
-                        <tr><td>You (formal)</td><td>तपाईं</td><td>हुनुहुन्थ्यो</td><td>हुनुहुन्नथ्यो</td></tr>
-                        <tr><td>He/She/That</td><td>उ/यो/त्यो</td><td>थियो</td><td>थिएन</td></tr>
-                        <tr><td>She (formal)</td><td>उनी</td><td>थिइन्</td><td>थिइनन्</td></tr>
-                        <tr><td>He/She (formal)</td><td>वहाँ</td><td>हुनुहुन्थ्यो</td><td>हुनुहुन्नथ्यो</td></tr>
-                        <tr><td>They</td><td>उनीहरु</td><td>थिए</td><td>थिएनन्</td></tr>
+                        <tr><td>I</td><td>म</td><td>थिएँ (thie)</td><td>थिइनँ (thiena)</td></tr>
+                        <tr><td>We</td><td>हामी</td><td>थियौं (thiyau)</td><td>थिएनौं (thienau)</td></tr>
+                        <tr><td>You (inf)</td><td>तिमी</td><td>थियौ (thiyau)</td><td>थिएनौ (thienau)</td></tr>
+                        <tr><td>You (formal)</td><td>तपाईं</td><td>हुनुहुन्थ्यो (hunuhunthyo)</td><td>हुनुहुन्नथ्यो (hunuhunnathyo)</td></tr>
+                        <tr><td>He/She/That</td><td>उ/यो/त्यो</td><td>थियो (thiyo)</td><td>थिएन (thiena)</td></tr>
+                        <tr><td>She (formal)</td><td>उनी</td><td>थिइन् (thiin)</td><td>थिइनन् (thiinan)</td></tr>
+                        <tr><td>He/She (formal)</td><td>वहाँ</td><td>हुनुहुन्थ्यो (hunuhunthyo)</td><td>हुनुहुन्नथ्यो (hunuhunnathyo)</td></tr>
+                        <tr><td>They</td><td>उनीहरु</td><td>थिए (thie)</td><td>थिएनन् (thienan)</td></tr>
                     </tbody>
                 </table>
                  <p>Example: I was in Nepal. → म नेपालमा थिएँ (Ma Nepal-ma thien).</p>
@@ -244,11 +244,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 <table>
                     <thead><tr><th>Subject</th><th>Positive Ending</th><th>Negative Ending</th></tr></thead>
                     <tbody>
-                        <tr><td>I (म)</td><td>दै थिएँ</td><td>दै थिइनँ</td></tr>
-                        <tr><td>We (हामी)</td><td>दै थियौं</td><td>दै थिएनौं</td></tr>
-                        <tr><td>You (तिमी)</td><td>दै थियौ</td><td>दै थिएनौ</td></tr>
-                        <tr><td>He/She (उ)</td><td>दै थियो</td><td>दै थिएन</td></tr>
-                        <tr><td>They (उनीहरु)</td><td>दै थिए</td><td>दै थिएनन्</td></tr>
+                        <tr><td>I (म)</td><td>दै थिएँ (dai thie)</td><td>दै थिइनँ (dai thiena)</td></tr>
+                        <tr><td>We (हामी)</td><td>दै थियौं (dai thiyau)</td><td>दै थिएनौं (dai thienau)</td></tr>
+                        <tr><td>You (तिमी)</td><td>दै थियौ (dai thiyau)</td><td>दै थिएनौ (dai thienau)</td></tr>
+                        <tr><td>He/She (उ)</td><td>दै थियो (dai thiyo)</td><td>दै थिएन (dai thiena)</td></tr>
+                        <tr><td>They (उनीहरु)</td><td>दै थिए (dai thie)</td><td>दै थिएनन् (dai thienan)</td></tr>
                     </tbody>
                 </table>
                 <p>Example: I was eating. → म खाँदै थिएँ (Ma khaandai thien).</p>
@@ -262,12 +262,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 <table>
                     <thead><tr><th>Subject</th><th>Pronoun</th><th>Positive Ending</th><th>Negative Ending</th></tr></thead>
                     <tbody>
-                        <tr><td>I</td><td>म</td><td>ने छु</td><td>ने छैन</td></tr>
-                        <tr><td>We</td><td>हामी</td><td>ने छौं</td><td>ने छैनौं</td></tr>
-                        <tr><td>You (inf)</td><td>तिमी</td><td>ने छौ</td><td>ने छैनौ</td></tr>
-                        <tr><td>You (formal)</td><td>तपाईं</td><td>(verb) + हुनेछ</td><td>(verb) + हुनेछैन</td></tr>
-                        <tr><td>He/She/That</td><td>उ/यो/त्यो</td><td>ने छ</td><td>ने छैन</td></tr>
-                        <tr><td>They</td><td>उनीहरु</td><td>ने छन्</td><td>ने छैनन्</td></tr>
+                        <tr><td>I</td><td>म</td><td>ने छु (ne chhu)</td><td>ने छैन (ne chhaina)</td></tr>
+                        <tr><td>We</td><td>हामी</td><td>ने छौं (ne chhau)</td><td>ने छैनौं (ne chhainau)</td></tr>
+                        <tr><td>You (inf)</td><td>तिमी</td><td>ने छौ (ne chhau)</td><td>ने छैनौ (ne chhainau)</td></tr>
+                        <tr><td>You (formal)</td><td>तपाईं</td><td>(verb) + हुनेछ (hunechha)</td><td>(verb) + हुनेछैन (hunechhaina)</td></tr>
+                        <tr><td>He/She/That</td><td>उ/यो/त्यो</td><td>ने छ (ne chha)</td><td>ने छैन (ne chhaina)</td></tr>
+                        <tr><td>They</td><td>उनीहरु</td><td>ने छन् (ne chhan)</td><td>ने छैनन् (ne chhainan)</td></tr>
                     </tbody>
                 </table>
                 <p>Example: I will go. → म जाने छु (Ma jaane chhu).</p>
@@ -425,8 +425,14 @@ document.addEventListener('DOMContentLoaded', function() {
             content: `
                 <h2>Module 20: If... Then – Conditional Sentences</h2>
                 <p>Conditional sentences are formed using <strong>भने (bhane)</strong> which means 'if'.</p>
-                <h3>Type 1: Present/Future Real Condition</h3>
+                
+                <h3>Type 0: Present/Future Real Condition</h3>
                 <p>Structure: <strong>Simple Present + भने (bhane) → Simple Present / Future</strong></p>
+                <p>Example: if you have a book , can you give me?. → यदि तपाईंसँग किताब छ भने, के तपाईं मलाई दिन सक्नुहुन्छ? (Tapaaisanga kitaab chha bhane ke tapaai malaai dina saknuhunchha?).</p>
+                
+
+                <h3>Type 1: Present/Future Real Condition</h3>
+                <p>Structure: <strong>Simple Past + भने (bhane) → Simple Present / Future</strong></p>
                 <p>Example: If you come, I will go. → तिमी आयौ भने म जान्छु (Timi aayau bhane ma jaanchhu).</p>
                 
                 <h3>Type 2: Past Unreal Condition</h3>
