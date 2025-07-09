@@ -13,14 +13,15 @@
     --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-nepali: 'Noto Sans Devanagari', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
-    --font-xs: clamp(0.85rem, 1vw, 0.95rem);
-    --font-sm: clamp(0.95rem, 1.2vw, 1.05rem);
-    --font-base: clamp(1rem, 1.4vw, 1.1rem);
-    --font-md: clamp(1.15rem, 1.6vw, 1.25rem);
-    --font-lg: clamp(1.3rem, 2vw, 1.45rem);
-    --font-xl: clamp(1.6rem, 2.5vw, 2rem);
-    --font-2xl: clamp(2rem, 3.5vw, 2.6rem);
-    --font-3xl: clamp(2.5rem, 5vw, 3rem);
+    /* Font scale variables */
+    --font-xs: 0.85rem;
+    --font-sm: 0.95rem;
+    --font-base: 1.05rem;
+    --font-md: 1.15rem;
+    --font-lg: 1.35rem;
+    --font-xl: 1.65rem;
+    --font-2xl: 2rem;
+    --font-3xl: 2.5rem;
 }
 
 * {
@@ -34,7 +35,7 @@ body {
     background-color: var(--bg-color);
     color: var(--text-dark);
     font-size: var(--font-base);
-    line-height: 1.75;
+    line-height: 1.65;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -61,7 +62,7 @@ body {
 .main-content {
     grid-area: main;
     overflow-y: auto;
-    padding: clamp(24px, 5vw, 60px);
+    padding: 60px;
     background-color: var(--content-bg);
 }
 
@@ -130,29 +131,28 @@ body {
 }
 
 .page-content h1 {
-    font-size: var(--font-3xl);
-    margin-bottom: 2rem;
+    font-size: var(--font-2xl);
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .page-content h2 {
-    font-size: var(--font-2xl);
-    padding-bottom: 15px;
+    font-size: var(--font-xl);
+    padding-bottom: 0.5rem;
     border-bottom: 1px solid var(--border-color);
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-top: 2.5rem;
 }
 
 .page-content h3 {
-    font-size: var(--font-xl);
+    font-size: var(--font-lg);
     color: var(--primary-accent);
     margin-top: 2rem;
 }
 
 .page-content p,
 .page-content li {
-    font-size: var(--font-base);
     margin-bottom: 1.2rem;
+    font-size: var(--font-base);
     color: var(--text-dark);
 }
 
@@ -161,7 +161,7 @@ body {
     color: var(--text-dark);
 }
 
-/* Welcome Page Specific Styles */
+/* Welcome Page */
 .title-page {
     display: flex;
     flex-direction: column;
@@ -197,12 +197,11 @@ thead {
 }
 
 th, td {
-    padding: 16px;
+    padding: 20px;
     text-align: left;
     border-bottom: 1px solid var(--border-color);
     font-family: var(--font-nepali), var(--font-sans);
     vertical-align: middle;
-    font-size: var(--font-base);
 }
 
 th {
@@ -236,10 +235,11 @@ tbody tr:hover {
     left: 8px;
     color: var(--primary-accent);
     font-weight: bold;
-    font-size: var(--font-md);
+    font-size: 1.3rem;
     line-height: 1.4;
 }
 
+/* Links */
 a {
     color: var(--primary-accent);
     text-decoration: none;
@@ -316,20 +316,9 @@ a:hover {
         padding: 24px;
     }
 
-    .page-content h1 {
-        font-size: clamp(2rem, 5vw, 2.5rem);
-    }
-
-    .page-content h2 {
-        font-size: clamp(1.6rem, 4vw, 2rem);
-    }
-
-    .page-content h3 {
-        font-size: clamp(1.3rem, 3vw, 1.6rem);
-    }
-
+    .page-content h1 { font-size: 1.65rem; }
+    .page-content h2 { font-size: 1.35rem; }
+    .page-content h3 { font-size: 1.15rem; }
     .page-content p,
-    .page-content li {
-        font-size: clamp(1rem, 1.4vw, 1.1rem);
-    }
+    .page-content li { font-size: 0.95rem; }
 }
