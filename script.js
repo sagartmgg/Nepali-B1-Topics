@@ -4,11 +4,10 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             title: "Welcome to Nepali Lessons",
             content: `
-                <div class="title-slide">
+                <div class="title-page">
                     <h1>नेपाली भाषा कक्षामा स्वागत छ</h1>
-                    <p>Use the navigation buttons below to begin.</p>
-                </div>
-            `
+                    <p>Welcome to your interactive guide to learning Nepali. Select a topic from the sidebar to begin your journey. Each module is designed to build your skills step-by-step.</p>
+                </div>`
         },
         {
             title: "Module 1: Introducing – Is, Am, Are",
@@ -619,95 +618,69 @@ document.addEventListener('DOMContentLoaded', function() {
     ];
 
     // DOM Elements
-    const slidesContainer = document.getElementById('slides-container');
-    const prevBtn = document.getElementById('prevBtn');
-    const nextBtn = document.getElementById('nextBtn');
-    const slideCounter = document.getElementById('slide-counter');
-    const moduleNav = document.getElementById('module-nav');
+    const navList = document.getElementById('module-navigation-list');
+    const mainContent = document.getElementById('main-content');
+    const menuToggle = document.getElementById('menu-toggle');
+    const sidebar = document.getElementById('sidebar');
 
-    let currentSlide = 0;
+    // Function to display a specific module's content
+    function showPage(index) {
+        // Update content
+        mainContent.innerHTML = `<div class="page-content">${modules[index].content}</div>`;
+        mainContent.scrollTop = 0; // Scroll to top on new page
 
-    // Function to generate slides and navigation
-    function initializePresentation() {
+        // Update active link in navigation
+        const navLinks = navList.querySelectorAll('a');
+        navLinks.forEach(link => link.classList.remove('active'));
+        const activeLink = navList.querySelector(`a[data-index="${index}"]`);
+        if (activeLink) {
+            activeLink.classList.add('active');
+        }
+
+        // Hide sidebar on mobile after selection
+        if (window.innerWidth <= 768) {
+            sidebar.classList.remove('visible');
+        }
+    }
+
+    // Initialize the application
+    function initializeApp() {
+        // Populate navigation list
         modules.forEach((module, index) => {
-            // Create slide element
-            const slide = document.createElement('div');
-            slide.className = 'slide';
-            slide.innerHTML = module.content;
-            slidesContainer.appendChild(slide);
-
-            // Create navigation option
-            const option = document.createElement('option');
-            option.value = index;
-            option.textContent = module.title;
-            moduleNav.appendChild(option);
+            const listItem = document.createElement('li');
+            const link = document.createElement('a');
+            link.href = '#';
+            link.textContent = module.title;
+            link.setAttribute('data-index', index);
+            listItem.appendChild(link);
+            navList.appendChild(listItem);
         });
-    }
 
-    // Function to show a specific slide
-    function showSlide(index) {
-        const allSlides = document.querySelectorAll('.slide');
+        // Add event listener to the navigation list (event delegation)
+        navList.addEventListener('click', function(e) {
+            e.preventDefault();
+            if (e.target.tagName === 'A') {
+                const index = parseInt(e.target.getAttribute('data-index'));
+                showPage(index);
+            }
+        });
         
-        // Ensure index is within bounds
-        if (index >= allSlides.length) {
-            index = allSlides.length - 1;
-        }
-        if (index < 0) {
-            index = 0;
-        }
-
-        // Hide all slides
-        allSlides.forEach(slide => {
-            slide.classList.remove('active');
+        // Add event listener for mobile menu toggle
+        menuToggle.addEventListener('click', function() {
+            sidebar.classList.toggle('visible');
         });
 
-        // Show the target slide
-        allSlides[index].classList.add('active');
-        currentSlide = index;
+        // Close sidebar if user clicks outside of it on mobile
+        mainContent.addEventListener('click', function() {
+            if (sidebar.classList.contains('visible')) {
+                sidebar.classList.remove('visible');
+            }
+        });
 
-        // Update navigation
-        updateNav();
+        // Show the welcome page by default
+        showPage(0);
     }
 
-    // Function to update buttons, counter, and dropdown
-    function updateNav() {
-        // Update counter
-        slideCounter.textContent = `Module ${currentSlide} of ${modules.length - 1}`;
-        if (currentSlide === 0) {
-            slideCounter.textContent = 'Welcome';
-        }
-
-        // Update dropdown
-        moduleNav.value = currentSlide;
-
-        // Update buttons
-        prevBtn.disabled = currentSlide === 0;
-        nextBtn.disabled = currentSlide === modules.length - 1;
-    }
-
-    // Event Listeners
-    nextBtn.addEventListener('click', () => {
-        showSlide(currentSlide + 1);
-    });
-
-    prevBtn.addEventListener('click', () => {
-        showSlide(currentSlide - 1);
-    });
-
-    moduleNav.addEventListener('change', (e) => {
-        showSlide(parseInt(e.target.value));
-    });
-
-    // Keyboard navigation
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'ArrowRight') {
-            nextBtn.click();
-        } else if (e.key === 'ArrowLeft') {
-            prevBtn.click();
-        }
-    });
-
-    // Initial setup
-    initializePresentation();
-    showSlide(0);
+    // Run the app
+    initializeApp();
 });
