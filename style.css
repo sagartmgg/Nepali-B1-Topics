@@ -1,17 +1,26 @@
 /* --- Global Styles & Resets (High Readability Theme) --- */
 :root {
-    --bg-color: #f9fafb; /* Very light gray background */
+    --bg-color: #f9fafb;
     --content-bg: #ffffff;
     --sidebar-bg: #fdfdfd;
-    --primary-accent: #059669; /* A strong, accessible green */
+    --primary-accent: #059669;
     --primary-accent-light: #e6f5f1;
-    --text-dark: #111827; /* Near-black for high contrast */
+    --text-dark: #111827;
     --text-light: #4b5563;
     --border-color: #e5e7eb;
     --table-header-bg: #f9fafb;
     --shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-nepali: 'Noto Sans Devanagari', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    --font-xs: clamp(0.85rem, 1vw, 0.95rem);
+    --font-sm: clamp(0.95rem, 1.2vw, 1.05rem);
+    --font-base: clamp(1rem, 1.4vw, 1.1rem);
+    --font-md: clamp(1.15rem, 1.6vw, 1.25rem);
+    --font-lg: clamp(1.3rem, 2vw, 1.45rem);
+    --font-xl: clamp(1.6rem, 2.5vw, 2rem);
+    --font-2xl: clamp(2rem, 3.5vw, 2.6rem);
+    --font-3xl: clamp(2.5rem, 5vw, 3rem);
 }
 
 * {
@@ -24,7 +33,8 @@ body {
     font-family: var(--font-sans);
     background-color: var(--bg-color);
     color: var(--text-dark);
-    line-height: 1.8; /* Increased line height for readability */
+    font-size: var(--font-base);
+    line-height: 1.75;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -32,7 +42,7 @@ body {
 /* --- Main App Layout --- */
 .app-container {
     display: grid;
-    grid-template-columns: 300px 1fr; /* Wider sidebar */
+    grid-template-columns: 300px 1fr;
     grid-template-rows: 1fr;
     height: 100vh;
     grid-template-areas: "sidebar main";
@@ -51,12 +61,12 @@ body {
 .main-content {
     grid-area: main;
     overflow-y: auto;
-    padding: 60px;
+    padding: clamp(24px, 5vw, 60px);
     background-color: var(--content-bg);
 }
 
 .app-header {
-    display: none; /* Hidden on desktop */
+    display: none;
 }
 
 /* --- Sidebar Navigation Styling --- */
@@ -66,7 +76,7 @@ body {
 }
 
 .sidebar-header h2 {
-    font-size: 1.8rem;
+    font-size: var(--font-md);
     font-family: var(--font-sans);
     color: var(--text-dark);
     font-weight: 700;
@@ -84,7 +94,7 @@ body {
     margin: 5px 15px;
     color: var(--text-light);
     text-decoration: none;
-    font-size: 1.05rem; /* Larger nav font */
+    font-size: var(--font-sm);
     font-weight: 500;
     border-radius: 8px;
     transition: all 0.2s ease;
@@ -109,37 +119,40 @@ body {
     margin: 0 auto;
 }
 
-.page-content h1, .page-content h2, .page-content h3 {
+.page-content h1,
+.page-content h2,
+.page-content h3 {
     font-family: var(--font-nepali), var(--font-sans);
     color: var(--text-dark);
-    margin-bottom: 1.5rem;
     line-height: 1.3;
     font-weight: 700;
+    margin-bottom: 1.5rem;
 }
 
 .page-content h1 {
-    font-size: 3.5rem; /* Larger font */
-    margin-bottom: 2.5rem;
+    font-size: var(--font-3xl);
+    margin-bottom: 2rem;
     text-align: center;
 }
 
 .page-content h2 {
-    font-size: 2.5rem; /* Larger font */
+    font-size: var(--font-2xl);
     padding-bottom: 15px;
     border-bottom: 1px solid var(--border-color);
-    margin-top: 4rem;
-    margin-bottom: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 .page-content h3 {
-    font-size: 1.8rem; /* Larger font */
+    font-size: var(--font-xl);
     color: var(--primary-accent);
-    margin-top: 3.5rem;
+    margin-top: 2rem;
 }
 
-.page-content p, .page-content li {
-    margin-bottom: 1.5rem;
-    font-size: 1.2rem; /* Larger base font */
+.page-content p,
+.page-content li {
+    font-size: var(--font-base);
+    margin-bottom: 1.2rem;
     color: var(--text-dark);
 }
 
@@ -159,7 +172,7 @@ body {
 }
 
 .title-page p {
-    font-size: 1.3rem; /* Larger font */
+    font-size: var(--font-md);
     max-width: 650px;
     color: var(--text-light);
 }
@@ -172,10 +185,11 @@ body {
     margin: 3rem 0;
     box-shadow: var(--shadow);
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 1.1rem; /* Larger font */
+    font-size: var(--font-sm);
 }
 
 thead {
@@ -183,11 +197,12 @@ thead {
 }
 
 th, td {
-    padding: 20px;
+    padding: 16px;
     text-align: left;
     border-bottom: 1px solid var(--border-color);
     font-family: var(--font-nepali), var(--font-sans);
     vertical-align: middle;
+    font-size: var(--font-base);
 }
 
 th {
@@ -221,7 +236,7 @@ tbody tr:hover {
     left: 8px;
     color: var(--primary-accent);
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: var(--font-md);
     line-height: 1.4;
 }
 
@@ -265,7 +280,7 @@ a:hover {
 
     .header-title {
         margin: 0 auto;
-        font-size: 1.2rem;
+        font-size: var(--font-sm);
         color: var(--text-dark);
     }
 
@@ -276,7 +291,7 @@ a:hover {
         padding: 5px;
         z-index: 101;
     }
-    
+
     .menu-toggle-btn svg {
         stroke: var(--text-dark);
     }
@@ -289,7 +304,7 @@ a:hover {
         height: 100%;
         transform: translateX(-100%);
         z-index: 200;
-        box-shadow: 0 0 40px rgba(0,0,0,0.1);
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
         border-right: none;
     }
 
@@ -301,8 +316,20 @@ a:hover {
         padding: 24px;
     }
 
-    .page-content h1 { font-size: 2.5rem; }
-    .page-content h2 { font-size: 2rem; }
-    .page-content h3 { font-size: 1.5rem; }
-    .page-content p, .page-content li { font-size: 1.1rem; }
+    .page-content h1 {
+        font-size: clamp(2rem, 5vw, 2.5rem);
+    }
+
+    .page-content h2 {
+        font-size: clamp(1.6rem, 4vw, 2rem);
+    }
+
+    .page-content h3 {
+        font-size: clamp(1.3rem, 3vw, 1.6rem);
+    }
+
+    .page-content p,
+    .page-content li {
+        font-size: clamp(1rem, 1.4vw, 1.1rem);
+    }
 }
