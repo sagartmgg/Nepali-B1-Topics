@@ -459,36 +459,9 @@ document.addEventListener('DOMContentLoaded', function() {
             `
         },
         {
-            title: "Module 22: Sharing Opinions",
+            title: "Module 22: Used to / Would have / Could have",
             content: `
-                <h2>Module 22: Sharing Opinions – I Think, I Believe</h2>
-                <p>To express an opinion or what you think/feel, use <strong>मलाई लाग्छ (malaai laagchha)</strong>.</p>
-                <p>Literally, it means "to me it seems/feels".</p>
-                <ul>
-                    <li>I think he will come. → मलाई लाग्छ, ऊ आउँछ (Malaai laagchha, u aaunchha).</li>
-                    <li>I feel it's okay. → मलाई ठिक लाग्छ (Malaai thik laagchha).</li>
-                </ul>
-                <p>You can also use <strong>... जस्तो लाग्छ (... jasto laagchha)</strong> to mean "it seems like...".</p>
-                <p>Example: It seems like it will rain. → पानी पर्छ जस्तो लाग्छ (Paani parchha jasto laagchha).</p>
-            `
-        },
-        {
-            title: "Module 23: Shopping and Prices",
-            content: `
-                <h2>Module 23: Shopping and Prices</h2>
-                <h3>Common Shopping Phrases</h3>
-                <ul>
-                    <li>How much is this? → यो कति हो? (Yo kati ho?) / यसको कति हो? (Yasko kati ho?)</li>
-                    <li>This is 10 Rupees. → यो दस रुपैयाँ हो (Yo das rupiyaan ho).</li>
-                    <li>It is too expensive. → धेरै महँगो भयो (Dherai mahango bhayo).</li>
-                    <li>It is cheap. → सस्तो छ (Sasto chha).</li>
-                </ul>
-            `
-        },
-        {
-            title: "Module 24: Past Habits ('Used To')",
-            content: `
-                <h2>Module 24: I Used To... – Talking About Past Habits</h2>
+                <h2>Module 22: I Used To... – Talking About Past Habits</h2>
                 <p>To talk about something you used to do, use the structure:</p>
                 <p><strong>Verb Stem + थें/थ्यौ/थ्यो (the/thyau/thyo) etc.</strong> This is a specific past tense form.</p>
                 <table>
@@ -506,9 +479,9 @@ document.addEventListener('DOMContentLoaded', function() {
             `
         },
         {
-            title: "Module 25: Comparisons",
+            title: "Module 23: Comparisons",
             content: `
-                <h2>Module 25: Comparing Things – Than and The Most</h2>
+                <h2>Module 23: Comparing Things – Than and The Most</h2>
                 <h3>Than</h3>
                 <p>Use <strong>भन्दा (bhanda)</strong> to compare two things. It means 'than'.</p>
                 <p>Structure: <strong>A + भन्दा (bhanda) + B + Adjective + chha.</strong></p>
@@ -520,9 +493,9 @@ document.addEventListener('DOMContentLoaded', function() {
             `
         },
         {
-            title: "Module 26: Reflexive Pronouns",
+            title: "Module 24: Reflexive Pronouns",
             content: `
-                <h2>Module 26: Talking About Yourself – Reflexive Pronouns</h2>
+                <h2>Module 24: Talking About Yourself – Reflexive Pronouns</h2>
                 <p>Reflexive pronouns refer back to the subject of the sentence. The main reflexive pronoun is <strong>आफू (aafu)</strong> and its different forms.</p>
                 <ul>
                     <li><strong>आफ्नो (aafno)</strong> - one's own</li>
@@ -537,24 +510,9 @@ document.addEventListener('DOMContentLoaded', function() {
             `
         },
         {
-            title: "Module 27: Talking About Weather",
-            content: `
-                <h2>Module 27: Weather</h2>
-                <p>To talk about the weather, you often use the present perfect structure with <strong>...लागेको छ (...laageko chha)</strong> or simple statements with <strong>...छ (...chha)</strong>.</p>
-                <h3>Common Weather Phrases</h3>
-                <ul>
-                    <li>It is hot. → गर्मी छ (Garmi chha).</li>
-                    <li>It is cold. → जाडो छ (Jaado chha).</li>
-                    <li>It is raining. → पानी परिरहेको छ (Paani pariraheko chha).</li>
-                    <li>The wind is blowing. → हावा चलिरहेको छ (Hawa chaliraheko chha).</li>
-                    <li>It is sunny. → घाम लागेको छ (Ghaam laageko chha).</li>
-                </ul>
-            `
-        },
-        {
-    title: "Module 28: Next Steps & Advanced Topics",
+    title: "Module 25: Next Steps & Advanced Topics",
     content: `
-        <h2>Module 28: Next Steps</h2>
+        <h2>Module 25: Next Steps</h2>
         <p>Congratulations on covering the basics! Here are some more advanced topics and helpful resources to explore next:</p>
 
         <ul>
